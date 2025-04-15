@@ -74,3 +74,4 @@ Desktop.ini
 
 # ---- Optional: Typescript cache ----
 *.tsbuildinfo
+server/config/firebaseServiceAccountKey.json 

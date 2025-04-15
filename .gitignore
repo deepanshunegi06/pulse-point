@@ -1,0 +1,76 @@
+# ---- General ----
+.DS_Store
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+package-lock.json
+yarn.lock
+
+# ---- Expo / React Native (Frontend) ----
+client/.expo/
+client/.expo-shared/
+client/.vscode/
+client/web-build/
+client/dist/
+client/ios/
+client/android/
+client/node_modules/
+client/metro-cache/
+client/babel.config.js
+client/*.iml
+client/*.jks
+client/*.keystore
+client/*.hprof
+client/coverage/
+client/*.gradle
+
+# macOS
+client/__MACOSX/
+client/.DS_Store
+
+# React Native packager
+client/packager-info.json
+client/.watchmanconfig
+
+# IDEs
+client/.idea/
+client/.vscode/
+
+# ---- Express (Backend) ----
+server/node_modules/
+server/.env
+server/coverage/
+server/.vscode/
+server/.DS_Store
+server/debug.log
+
+# Logs
+server/logs/
+server/*.log
+
+# ---- OS / Editor Specific ----
+*.swp
+*.swo
+*.swn
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# ---- Build Output ----
+*.out
+*.build
+*.tmp
+*.tsbuildinfo
+
+# ---- Optional: Expo-specific ----
+*.expo
+
+# ---- Optional: Typescript cache ----
+*.tsbuildinfo

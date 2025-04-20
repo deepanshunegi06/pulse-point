@@ -75,3 +75,4 @@ Desktop.ini
 # ---- Optional: Typescript cache ----
 *.tsbuildinfo
 server/config/firebaseServiceAccountKey.json 
+"server/ambulance-alert-app-firebase-adminsdk-fbsvc-151211b9b9.json" 
